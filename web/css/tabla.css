@@ -1,0 +1,72 @@
+/*
+        Color fondo: #3c4245;
+        Color header: #24303c;
+        Color borde: 0F362D;
+        Color iluminado: 369681;
+*/
+body{
+    background-color: #3c4245;
+    font-family: Calibri;
+}
+#principal{
+
+    margin: 0.5em;
+}
+
+#main-container{
+    margin: 10px;
+    width: auto;
+}
+
+table{
+    background-color: white; 
+    text-align: left; 
+    border-collapse: collapse; 
+    width: 40%; 
+    box-shadow: 7px 13px 37px #000;
+}
+
+th, td{
+    padding: 10px;
+}
+
+thead{
+    background-color: #24303c;
+    border-bottom: solid 3px #45c0e6;
+    color: white;
+    align-items: center;
+
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
+
+.label{
+    color:white;
+    width: auto;
+}
+
+header{
+    box-shadow: 7px 13px 37px #000;
+    font-family: Calibri;
+    background-color: #24303c;   
+    width:5000;
+    height: 70px;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
